@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import { AboutPage } from "../components/AboutPage/AboutPage";
 
 export function About() {
 
@@ -10,7 +11,7 @@ export function About() {
     }, [])
     return(
         <>
-        <h1>About</h1>
+            <AboutPage/>
         </>
     )
 }

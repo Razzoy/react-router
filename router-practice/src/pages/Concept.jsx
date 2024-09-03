@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import { ConceptPage } from "../components/ConceptPage/ConceptPage";
 
 export function Concept() {
 
@@ -21,7 +22,7 @@ export function Concept() {
     }, [])
     return(
         <>
-        <h1>Concept</h1>
+            <ConceptPage/>
         </>
     )
 }

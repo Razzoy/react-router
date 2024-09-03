@@ -1,0 +1,43 @@
+.conceptStyle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+   p{
+    margin: 5rem 0 0;
+        text-align: center;
+        font-weight: 400;
+        max-width: 80%;
+        align-self: center;
+   }
+
+   figure{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1f1f1f 0%, #3a3a3a 100%);
+    display: flex;
+    flex-direction: row;
+    border-radius: 2rem;
+    width: 90%;
+    img{
+        width: 45%;
+    }
+    figCaption{
+        font-size: 2rem;
+        align-self: center;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+
+        p, h3{
+            text-align: center;
+            margin: 0;
+            color: white;
+            
+        }
+    }
+    &:nth-of-type(2){
+        flex-direction: row-reverse;
+    }
+   }
+}

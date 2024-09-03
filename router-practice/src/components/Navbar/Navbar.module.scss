@@ -1,11 +1,12 @@
 .navbarStyle {
     position: sticky;
     height: max-content;
-    background-color: #ff8c00;
+    background-color: #484848;
     display: flex;
     flex-direction: row;
     align-items: center;
     z-index: 2;
+    box-shadow: 1rem 0.5rem 10px 4px #00000033;
 
     ul{
         padding: 0;
@@ -19,11 +20,10 @@
             border-radius: 5px;
             &:hover{
                 cursor: pointer;
-                background-color: #b06100;
+                background-color: #f17400;
             }
             a{
                 text-decoration: none;
-                color: white;
                 font-size: 1.5rem;
             }
         }

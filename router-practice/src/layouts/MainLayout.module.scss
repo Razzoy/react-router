@@ -1,10 +1,21 @@
 .mainStyle{
     width: 80%;
-    height: 100vh;
+    min-height: 100vh;
     margin: auto;
-    background-color: burlywood;
-    h1{
-        text-align: center;
-        margin: 0;
+    background: linear-gradient(135deg, #4a4a6a 0%, #b04d4d 100%);
+    
+    div{
+        padding: 2rem;
+        h1{
+            color: white;
+            text-align: center;
+            margin: 0;
+            font-size: 6rem;
+        }
+        p{
+            font-size: 2rem;
+        }
     }
+
+    
 }

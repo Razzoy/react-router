@@ -6,16 +6,16 @@ export function Navbar() {
         <nav className={style.navbarStyle}>
             <ul>
                 <li>
-                    <NavLink style={({isActive}) => isActive ? {color: 'burlywood'} : {color: 'White'}} to={'/'}>Home</NavLink>
+                    <NavLink style={({isActive}) => isActive ? {color: 'black'} : {color: 'White'}} to={'/'}>Home</NavLink>
                 </li>
                 <li>
-                    <NavLink style={({isActive}) => isActive ? {color: 'burlywood'} : {color: 'White'}} to={'/concept'}>Concept</NavLink>
+                    <NavLink style={({isActive}) => isActive ? {color: 'black'} : {color: 'White'}} to={'/concept'}>Concept</NavLink>
                 </li>
                 <li>
-                    <NavLink style={({isActive}) => isActive ? {color: 'burlywood'} : {color: 'White'}} to={'/about'}>About</NavLink>
+                    <NavLink style={({isActive}) => isActive ? {color: 'black'} : {color: 'White'}} to={'/about'}>About</NavLink>
                 </li>
                 <li>
-                    <NavLink style={({isActive}) => isActive ? {color: 'burlywood'} : {color: 'White'}} to={'/contact'}>Contact Us</NavLink>
+                    <NavLink style={({isActive}) => isActive ? {color: 'black'} : {color: 'White'}} to={'/contact'}>Contact Us</NavLink>
                 </li>
             </ul>
         </nav>
