@@ -1,7 +1,10 @@
 .mainStyle{
     width: 80%;
+    height: 100vh;
     margin: auto;
-    display: flex;
-    flex-direction: row;
-    background-color: lightblue;
+    background-color: burlywood;
+    h1{
+        text-align: center;
+        margin: 0;
+    }
 }

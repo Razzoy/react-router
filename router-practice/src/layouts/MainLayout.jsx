@@ -6,7 +6,7 @@ export function MainLayout() {
     return (
         <>
             <Navbar />
-            <main>
+            <main className={style.mainStyle}>
                 <Outlet />
             </main>
         </>

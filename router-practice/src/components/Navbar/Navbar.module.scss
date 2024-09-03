@@ -1,9 +1,11 @@
 .navbarStyle {
+    position: sticky;
     height: max-content;
     background-color: #ff8c00;
     display: flex;
     flex-direction: row;
     align-items: center;
+    z-index: 2;
 
     ul{
         padding: 0;
@@ -18,8 +20,6 @@
             &:hover{
                 cursor: pointer;
                 background-color: #b06100;
-
-
             }
             a{
                 text-decoration: none;
